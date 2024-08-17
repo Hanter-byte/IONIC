@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Receitas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let receita of receitas">
+      <ion-avatar slot="start">
+        <img src="{{receita.imageUrl}}">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{receita.titulo}}</h2>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

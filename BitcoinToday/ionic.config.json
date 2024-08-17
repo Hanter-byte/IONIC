@@ -1,0 +1,7 @@
+{
+  "name": "BitcoinToday",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
