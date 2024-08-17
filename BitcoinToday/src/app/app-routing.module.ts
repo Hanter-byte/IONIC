@@ -16,7 +16,7 @@ const routes: Routes = [
           ),
       },
       {
-        path: ':recipeId',
+        path: ':receitaId',
 
         loadChildren: () =>
           import('./receitas/receita-detalhe/receita-detalhe.module').then(

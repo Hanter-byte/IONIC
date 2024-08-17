@@ -20,9 +20,8 @@ import { ReceitasPage } from './receitas.page';
 export class ReceitasPageModule {}
 
 export interface Receita {
-  id: number;
+  id: string;
   titulo: string;
   imageUrl: string;
   ingredientes: string[];
-  data: string;
 }
